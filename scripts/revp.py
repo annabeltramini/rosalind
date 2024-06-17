@@ -1,6 +1,6 @@
 import re
 
-file = open("/Users/anna/Desktop/Rosalind/rosalind_revp.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_revp.txt")
 ref = file.read().splitlines()
 file.close()
 
@@ -79,7 +79,5 @@ for i in range(len(re_sites)):
 
 for x in re_fin:
     print(x[0],x[1])
-#print((re_fin)) #BUG to fix: the smaller palindromes are included
-    #i might want to switch this up
 
 #I had definitely overcomplecated it

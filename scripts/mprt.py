@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 import re
 
-file = open("/Users/anna/Desktop/Rosalind/rosalind_mprt.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_mprt.txt")
 mylist = file.read()
 file.close()
 

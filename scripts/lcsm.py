@@ -1,6 +1,6 @@
 
 #open file
-file = open("/Users/anna/Desktop/Rosalind/rosalind_lcsm.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_lcsm.txt")
 mylist = file.read().splitlines()
 file.close()
 

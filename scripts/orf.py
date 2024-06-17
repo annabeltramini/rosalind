@@ -1,13 +1,13 @@
 import numpy as np
 import re
 #open file
-file = open("/Users/anna/Desktop/Rosalind/rosalind_orf.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_orf.txt")
 fasta = file.read().splitlines()
 file.close()
 
 seq = "".join(fasta[1:]).strip()
 
-file = open("codontable.txt")
+file = open("inputs/codontable.txt")
 cod = file.read().splitlines()
 file.close()
 

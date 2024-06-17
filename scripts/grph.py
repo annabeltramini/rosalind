@@ -1,6 +1,6 @@
 import numpy as np
 #open file
-file = open("/Users/anna/Desktop/Rosalind/rosalind_grph.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_grph.txt")
 mylist = file.read().splitlines()
 file.close()
 

@@ -1,10 +1,10 @@
 from collections import Counter
 
-file = open("rosalind_mrna.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_mrna.txt")
 mrna = file.read().strip()
 file.close()
 
-file = open("codontable.txt")
+file = open("inputs/codontable.txt")
 cod = file.read().splitlines()
 file.close()
 

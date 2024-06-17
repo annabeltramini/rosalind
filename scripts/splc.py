@@ -2,11 +2,11 @@ import numpy as np
 import re
 
 #open file
-file = open("/Users/anna/Desktop/Rosalind/rosalind_splc.txt")
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_splc.txt")
 mylist = file.read().splitlines()
 file.close()
 
-file = open("codontable.txt")
+file = open("inputs/codontable.txt")
 cod = file.read().splitlines()
 file.close()
 
