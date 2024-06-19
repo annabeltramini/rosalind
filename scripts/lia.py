@@ -13,12 +13,16 @@
 #prob = pAA * 1/2 + pAa * 1/2 + paa * 1/2
     # 1/2(pAA + pAa + paa) = 1/2 
 
-print(1/2*1/2)
+#Probability of Aa = 1/2, and of Bb is 1/2
 
-#num in gen 1 - 2 - 4 - 8
+k = 2
+N = 1
+prob = 1/2 * 1/2
+probnot = 1 - prob
 
-prob = 1/4 * 1/2 * 1/2 + 1/4 * 1/2 * 1/2 + 1/2 * 1/4 * 1/2 + 1/2 * 1/2 * 1/2 + 1/2 * 1/4 * 1/2 + 1/4 * 1/2 * 1/2 + 1/4 * 1/2 * 1/2
-print(prob)
+finprob = ((2**k-N)*3/4)**(2**k)
+print(finprob)
+
 
 #gen 0 -> prob 1
 #gen 1 -> prob 1/2
@@ -33,7 +37,3 @@ print(prob)
 # N <= 2^k
 
 #number of people 2^7
-
-#(35/2^7)
-
-print(37/(2**8))
