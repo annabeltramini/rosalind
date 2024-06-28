@@ -14,14 +14,24 @@
     # 1/2(pAA + pAa + paa) = 1/2 
 
 #Probability of Aa = 1/2, and of Bb is 1/2
+import math
 
-k = 2
-N = 1
-prob = 1/2 * 1/2
-probnot = 1 - prob
+file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_lia.txt")
+inputs = file.read().strip()
+file.close()
 
-finprob = ((2**k-N)*3/4)**(2**k)
-print(finprob)
+inputs = inputs.split(" ")
+k = int(inputs[0])
+N = int(inputs[1])
+p = 1/4
+q = 1 - 1/4
+
+totprob = 0
+for n in range(N,2**k+1):
+    prob = math.comb(2**k,n)* p**n * q**(2**k-n)
+    totprob += prob
+print(round(totprob,3))
+
 
 
 #gen 0 -> prob 1
