@@ -1,6 +1,6 @@
 import re
 
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_revp.txt")
+file = open("inputs/rosalind_revp.txt")
 ref = file.read().splitlines()
 file.close()
 

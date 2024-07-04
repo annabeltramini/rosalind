@@ -1,6 +1,6 @@
 from collections import Counter
 
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_mrna.txt")
+file = open("inputs/rosalind_mrna.txt")
 mrna = file.read().strip()
 file.close()
 

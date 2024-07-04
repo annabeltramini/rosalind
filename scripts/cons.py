@@ -1,7 +1,7 @@
 import numpy as np
 
 #open file
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_cons.txt")
+file = open("inputs/rosalind_cons.txt")
 mylist = file.read().splitlines()
 file.close()
 
@@ -53,6 +53,6 @@ fin_out = cons+" \nA: "+ ' '.join(str(x) for x in A_count)+" \nC: "+ ' '.join(st
 #print(fin_out)
 
 #write file
-f = open("/Users/anna/Documents/Rosalind_git/outputs/rosalind_cons_output.txt", "w")
+f = open("outputs/rosalind_cons_output.txt", "w")
 f.write(fin_out)
 f.close()

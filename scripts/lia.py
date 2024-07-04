@@ -15,10 +15,10 @@
 
 #Probability of Aa = 1/2, and of Bb is 1/2
 import math
-
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_lia.txt")
+file = open("inputs/rosalind_lia.txt")
 inputs = file.read().strip()
 file.close()
+
 
 inputs = inputs.split(" ")
 k = int(inputs[0])

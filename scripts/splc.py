@@ -2,7 +2,7 @@ import numpy as np
 import re
 
 #open file
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_splc.txt")
+file = open("inputs/rosalind_splc.txt")
 mylist = file.read().splitlines()
 file.close()
 

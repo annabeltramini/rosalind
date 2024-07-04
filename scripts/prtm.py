@@ -1,8 +1,8 @@
-file = open("/Users/anna/Documents/Rosalind_git/inputs/rosalind_prtm.txt")
+file = open("inputs/rosalind_prtm.txt")
 input = file.read().strip()
 file.close()
 
-file = open("/Users/anna/Documents/Rosalind_git/inputs/weighted_aa.txt")
+file = open("inputs/weighted_aa.txt")
 aa_weights = file.read().splitlines()
 file.close()
 
