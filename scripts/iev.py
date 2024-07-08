@@ -14,9 +14,15 @@ file.close()
 
 #Store as integers instead of characters
 probs = [int(p) for p in probs]
-print(probs)
 
 # Num of offspirng with dominant phenotype if each couple has two offspring
-
+    #2* because of the two offspring
+    #AA will surely produce dominant phenotype (So AA-AA,AA-Aa,AA-aa have probability of 1)
+    #Aa-Aa will have 3/4 probability of dominant phenotype
+    #Aa-aa will habe 1/4 probability of dominant phenotype
+    #aa-aa cannot produce dominant phenotype
+    #(you can check these probs with Punnet Squares)
 dom_off = 2*(probs[0] * 1 + probs[1] * 1 + probs[2] * 1 + probs[3] * 3/4 + probs[4] * 1/2 + probs[5] * 0)
+
+
 print(dom_off)
