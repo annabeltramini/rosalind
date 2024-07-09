@@ -45,5 +45,9 @@ def permute(lst, r):
 lst = [1, 2, 3]
 r = 2
 solutions = permute(A, n)
-[print("".join(sol)) for sol in solutions]
+#[print("".join(sol)) for sol in solutions]
 
+###Alternative: Method with itertools
+
+#for p in itertools.product(A,repeat=n):
+#    print(''.join(p))
